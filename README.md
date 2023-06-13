@@ -1,2 +1,0 @@
-# kiosk
-gomo
