@@ -51,6 +51,9 @@
     width : 100px;
     height : 100px;
     border-radius: 10px;
+    font-size : 1.5rem;
+    font-weight : bold;
+    letter-spacing: 0.25rem;
 }
 
 #to_go {
@@ -58,6 +61,9 @@
     width : 100px;
     height : 100px;
     border-radius: 10px;
+    font-size : 1.5rem;
+    font-weight : bold;
+    letter-spacing: 0.25rem;
 }
 
 #order{
@@ -174,7 +180,47 @@
     position: absolute; 
     top: 0;
 }
-#window_detail {
+#window_detail1 {
+    margin-top: 15%;
+    margin-left: 5%;
+    position: absolute;
+    width: 90%;
+    height: 85%;
+    top: 0;
+    background: rgba(255, 255, 255, 0.87);  
+    overflow-x : hidden;  
+}
+#window_detail2 {
+    margin-top: 15%;
+    margin-left: 5%;
+    position: absolute;
+    width: 90%;
+    height: 85%;
+    top: 0;
+    background: rgba(255, 255, 255, 0.87);  
+    overflow-x : hidden;  
+}
+#window_detail3 {
+    margin-top: 15%;
+    margin-left: 5%;
+    position: absolute;
+    width: 90%;
+    height: 85%;
+    top: 0;
+    background: rgba(255, 255, 255, 0.87);  
+    overflow-x : hidden;  
+}
+#window_detail4 {
+    margin-top: 15%;
+    margin-left: 5%;
+    position: absolute;
+    width: 90%;
+    height: 85%;
+    top: 0;
+    background: rgba(255, 255, 255, 0.87);  
+    overflow-x : hidden;  
+}
+#window_detail5 {
     margin-top: 15%;
     margin-left: 5%;
     position: absolute;
@@ -247,19 +293,14 @@
     background: rgba(255, 255, 255, 0.87); 
 }
 
-#fast { 
-    margin-top : 230px;
-    margin-left : 53px;
-    width : 100px;
-    height : 100px;
-    border-radius: 10px;
-}
+
 
 #general {
-    margin-left : 60px;
-    width : 100px;
-    height : 100px;
+    margin-left :30px;
+    width : 125px;
+    height : 125px;
     border-radius: 10px;
+    font-size:1rem;
 }
 
 #window_order_list {
@@ -319,7 +360,118 @@
     border-color : red;
 }
 
+#fast_pay {
+    margin-top: 15%;
+    margin-left: 5%;
+    position: absolute;
+    width: 90%;
+    height: 85%;
+    top: 0;
+    background: rgba(255, 255, 255, 0.87);
+}
+#insertpay {
+    width: 90%;
+    height: 35%;
+    margin-left: 5%;
+    margin-top: 13%;
+    font-size: 20px;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
 
+}
+#insertpay div {
+    display: flex;
+    justify-content: center;
+}
+#card {
+    width: 330px;
+    height: 180px;
+    background: url(img/card.png) no-repeat center/cover;
+    justify-content: center;
+}
+#list {
+    width: 80%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    padding-bottom: 5%;
+    font-weight: bolder;
+    font-size: 2vh;
+}
+#list div {
+    height: 30%;
+    line-height: 220%;
+    display: flex;
+    justify-content: space-between;
+
+}
+#price_list {
+    background: #fecbcb;   
+    border-radius: 5px;
+}
+#total {
+    color : red;
+}
+#total_price {
+    color : red;
+}
+#general_pay {
+    margin-top: 15%;
+    margin-left: 5%;
+    position: absolute;
+    width: 90%;
+    height: 85%;
+    top: 0;
+    background: rgba(255, 255, 255, 0.87); 
+}
+#reward {
+    width: 90%;
+    height: 70%;
+    margin-left: 5%;
+    margin-top: 13%;
+    font-size: 20px;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+table {
+    text-align: center;
+    width: 300px;
+}
+tr {
+    text-align: center;
+}
+td {
+    width: 80px;
+}
+input[type=text] {
+    height: 50px;
+}
+input[type=button] {
+    width: 80px;
+    height: 80px;
+}
+
+#gift {
+    margin-top: 15%;
+    margin-left: 5%;
+    position: absolute;
+    width: 90%;
+    height: 85%;
+    top: 0;
+    background: rgba(255, 255, 255, 0.87); 
+}
+
+#coupon {
+    width: 330px;
+    height: 400px;
+    background: url(img/coupon.png) no-repeat center/cover;
+    justify-content: center;
+}
 
 /*음료 사진*/
 /*커피*/
@@ -352,6 +504,9 @@
 }
 #콜드브루라떼 {
     background: url(img/콜드브루라떼.jpg) no-repeat center / cover;
+}
+#올타임콜드브루 {
+    background: url(img/올타임콜드브루.jpg) no-repeat center / cover;
 }
 #아인슈페너2023 {
     background: url(img/아인슈페너2023.jpg) no-repeat center / cover;
